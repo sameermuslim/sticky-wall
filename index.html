@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/styles/style.css" />
+    <title>Stiky wall</title>
+  </head>
+  <body>
+    <div class="6main-container">
+      <div class="container">
+        <!-- side Panel for categories and Setting -->
+        <div class="side-panel">
+          <!-- A div for top menu -->
+          <div class="menu">
+            <h3 class="menu-title">Menu</h3>
+            <div class="burger_menu" onclick="openMenu()"><span></span></div>
+          </div>
+          <!-- Search bar  -->
+          <div class="search-bar">
+            <p>🔍</p>
+            <p id="sreach-input">Search</p>
+          </div>
+          <!-- task section  -->
+          <div class="task-section">
+            <p class="list-title">Tasks</p>
+            <ul>
+              <li class="">
+                <div class="list-item">
+                  <div>
+                    <img
+                      class="item-icon"
+                      src="public/images/double_right.svg"
+                      alt=""
+                    />
+                    <p>Upcoming</p>
+                  </div>
+                  <p class="amount">12</p>
+                </div>
+              </li>
+              <li class="">
+                <div class="list-item">
+                  <div>
+                    <img
+                      class="item-icon"
+                      src="public/images/today.svg"
+                      alt=""
+                    />
+                    <p>Today</p>
+                  </div>
+                  <p class="amount">10</p>
+                </div>
+              </li>
+              <li class="active">
+                <div class="list-item">
+                  <div>
+                    <img
+                      class="item-icon"
+                      src="public/images/calendar.svg"
+                      alt=""
+                    />
+                    <p>Calender</p>
+                  </div>
+                  <p class="amount"></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- List Section -->
+          <div class="List-section">
+            <p class="list-title">Lists</p>
+            <ul>
+              <li class="active">
+                <div class="list-item">
+                  <div>
+                    <div class="category-color orange"></div>
+                    <p>Personal</p>
+                  </div>
+                  <p class="amount">12</p>
+                </div>
+              </li>
+              <li class="">
+                <div class="list-item">
+                  <div>
+                    <div class="category-color yellow"></div>
+                    <p>Work</p>
+                  </div>
+                  <p class="amount">12</p>
+                </div>
+              </li>
+              <li class="">
+                <div class="list-item">
+                  <div>
+                    <div class="category-color blue"></div>
+                    <p>List 1</p>
+                  </div>
+                  <p class="amount">12</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="List-section">
+            <p class="list-title">Tags</p>
+            <ul class="tag">
+              <li class="list-item">
+                <div class="list-item blue">
+                  <p>Tag 1</p>
+                </div>
+                <div class="list-item orange">
+                  <p>Tag 2</p>
+                </div>
+                <div class="list-item emty">
+                  <p>+Add Tag</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <footer class="footer">
+            <div>
+              <img class="item-icon" src="public/images/slider.svg" alt="" />
+              <p>Setting</p>
+            </div>
+            <div>
+              <img class="item-icon" src="public/images/sign_out.svg" alt="" />
+              <p>Sign Out</p>
+            </div>
+          </footer>
+        </div>
+
+        <!-- Mane Panel -->
+        <div class="main-panel">
+          <h1 class="main-title">Sticky Wall</h1>
+          <div class="sticky-layout">
+            <div class="sticky-wall">
+              <div class="sticky pink">
+                <h2 class="sticky-title">Social Media</h2>
+
+                <p>- I will post my photo</p>
+                <p>- I will post my photo</p>
+                <p>- I will post my photo</p>
+                <p>- I will post my photo</p>
+              </div>
+
+              <div class="sticky yellow">
+                <h2 class="sticky-title">Work For Sundy</h2>
+                <ul>
+                  <p>* Read Book</p>
+                  <p>* paly Game</p>
+                  <p>* Web Learning</p>
+                  <p>* <span>Book the flight</span></p>
+                </ul>
+              </div>
+              <div class="sticky blue">
+                <h2 class="sticky-title">Short Story</h2>
+                <p>
+                  Would need time to get insights (goals, personals, budget,
+                  audits), but after, it would be good to focus on assembling my
+                  team (start with SEO specialist, then perhaps an email
+                  marketer?). Also need to brainstorm on tooling.
+                </p>
+              </div>
+              <div class="sticky orange">
+                <h2 class="sticky-title">Pendding Designs</h2>
+                <p>__Book Layout</p>
+                <p>__Magazine Final</p>
+                <p>__Making Ads</p>
+              </div>
+              <div class="sticky add"><span>+</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
