@@ -11,6 +11,10 @@ The project is structured as follows:
 - `script.js`: Currently empty JavaScript file where future functionalities will be implemented.
 - `images/`: A directory to store any images used in the project.
 
+## Screenshots
+
+![Screenshot 1](public/images/screenshot.png)
+
 ## Features
 
 - **Sticky Wall Interface**: The main panel displays a sticky wall where sticky notes can be added in future iterations.
@@ -29,5 +33,5 @@ The project is in its early stages, and future plans include:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/sticky-wall-web.git
+   git clone https://github.com/sameermuslim/sticky-wall.git
    ```
